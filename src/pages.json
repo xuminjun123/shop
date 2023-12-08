@@ -8,15 +8,15 @@
 		}
 	},
 	"pages": [
-		// {
-		//   "path": "pages/index/index",
-		//   "style": {
-		//     "navigationBarTitleText": "山塘雕花楼美术馆",
-		//     "navigationBarBackgroundColor": "#fff",
-		//     "navigationBarTextStyle": "black",
-		//     "enablePullDownRefresh": false
-		//   }
-		// },
+		{
+		  "path": "pages/index/index",
+		  "style": {
+		    "navigationBarTitleText": "山塘雕花楼美术馆",
+		    "navigationBarBackgroundColor": "#fff",
+		    "navigationBarTextStyle": "black",
+		    "enablePullDownRefresh": false
+		  }
+		},
 		{
 			"path": "pages/info/index",
 			"style": {
@@ -277,52 +277,52 @@
 		"backgroundColor": "#fff",
 		"box-shadow": "0px 4px 120px rgba(193, 193, 197, 0.15)",
 		"list": [
+			// {
+			// 	"pagePath": "pages/info/index",
+			// 	"iconPath": "static/tabbar/jianjie.png",
+			// 	"selectedIconPath": "static/tabbar/jianjie2.png",
+			// 	"text": "简介"
+			// },
+
+			// {
+			// 	"pagePath": "pages/applyActive/index",
+			// 	"iconPath": "static/tabbar/yuyue.png",
+			// 	"selectedIconPath": "static/tabbar/yuyue2.png",
+			// 	"text": "预约"
+			// }
+
 			{
-				"pagePath": "pages/info/index",
-				"iconPath": "static/tabbar/jianjie.png",
-				"selectedIconPath": "static/tabbar/jianjie2.png",
-				"text": "简介"
+			  "pagePath": "pages/index/index",
+			  "iconPath": "static/tabbar/home.png",
+			  "selectedIconPath": "static/tabbar/home2.png",
+			  "text": "首页"
+			},
+			{
+			  "pagePath": "pages/cate/index",
+			  "iconPath": "static/tabbar/cate.png",
+			  "selectedIconPath": "static/tabbar/cate2.png",
+			  "text": "分类"
 			},
 
 			{
-				"pagePath": "pages/applyActive/index",
-				"iconPath": "static/tabbar/yuyue.png",
-				"selectedIconPath": "static/tabbar/yuyue2.png",
-				"text": "预约"
+			  "pagePath": "pages/applyActive/index",
+			  "iconPath": "static/tabbar/yuyue.png",
+			  "selectedIconPath": "static/tabbar/yuyue2.png",
+			  "text": "预约"
+			},
+
+			{
+			  "pagePath": "pages/shoppingCart/index",
+			  "iconPath": "static/tabbar/shoppingCart.png",
+			  "selectedIconPath": "static/tabbar/shoppingCart2.png",
+			  "text": "购物车"
+			},
+			{
+			  "pagePath": "pages/mine/index",
+			  "iconPath": "static/tabbar/mine.png",
+			  "selectedIconPath": "static/tabbar/mine2.png",
+			  "text": "我的"
 			}
-
-			// {
-			//   "pagePath": "pages/index/index",
-			//   "iconPath": "static/tabbar/home.png",
-			//   "selectedIconPath": "static/tabbar/home2.png",
-			//   "text": "首页"
-			// },
-			// {
-			//   "pagePath": "pages/cate/index",
-			//   "iconPath": "static/tabbar/cate.png",
-			//   "selectedIconPath": "static/tabbar/cate2.png",
-			//   "text": "分类"
-			// },
-
-			// {
-			//   "pagePath": "pages/applyActive/index",
-			//   "iconPath": "static/tabbar/yuyue.png",
-			//   "selectedIconPath": "static/tabbar/yuyue2.png",
-			//   "text": "预约"
-			// },
-
-			// {
-			//   "pagePath": "pages/shoppingCart/index",
-			//   "iconPath": "static/tabbar/shoppingCart.png",
-			//   "selectedIconPath": "static/tabbar/shoppingCart2.png",
-			//   "text": "购物车"
-			// },
-			// {
-			//   "pagePath": "pages/mine/index",
-			//   "iconPath": "static/tabbar/mine.png",
-			//   "selectedIconPath": "static/tabbar/mine2.png",
-			//   "text": "我的"
-			// }
 		]
 	},
 	"condition": {
