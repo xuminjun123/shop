@@ -1,0 +1,332 @@
+{
+	"easycom": {
+		"autoscan": true, //是否开启自动扫描，开启后将会自动扫描符合components/组件名称/组件名称.vue目录结构的组件
+		"custom": {
+			"tui-(.*)": "thorui-uni/lib/thorui/tui-$1/tui-$1.vue",
+			"uni-(.*)": "@/uni-ui/uni-$1/components/uni-$1/uni-$1.vue", // 匹配uni-ui目录下组件名称/组件名称内的vue文件
+			"^tm-(.*)": "@/tmui/components/tm-$1/tm-$1.vue"
+		}
+	},
+	"pages": [
+		{
+		  "path": "pages/index/index",
+		  "style": {
+		    "navigationBarTitleText": "山塘雕花楼美术馆",
+		    "navigationBarBackgroundColor": "#fff",
+		    "navigationBarTextStyle": "black",
+		    "enablePullDownRefresh": false
+		  }
+		},
+		{
+			"path": "pages/info/index",
+			"style": {
+				"navigationBarTitleText": "简介",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/apply/index",
+			"style": {
+				"navigationBarTitleText": "预约",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/applyDetail/index",
+			"style": {
+				"navigationBarTitleText": "预约详情",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/applyInfo/index",
+			"style": {
+				"navigationBarTitleText": "活动详情",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/applyActive/index",
+			"style": {
+				"navigationBarTitleText": "活动预约",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/cate/index",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#095b2b",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/shoppingCart/index",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/orderList/index",
+			"style": {
+				"navigationBarTitleText": "订单明细",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/goodsDetail/index",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/orderDetail/index",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+
+
+		{
+			"path": "pages/paySuccess/index",
+			"style": {
+				"navigationBarTitleText": "支付成功",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/payField/index",
+			"style": {
+				"navigationBarTitleText": "支付失败",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "所有订单",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/logistics/index",
+			"style": {
+				"navigationBarTitleText": "查看物流",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/address/index",
+			"style": {
+				"navigationBarTitleText": "收货地址",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/addAddress/index",
+			"style": {
+				"navigationBarTitleText": "新增收货地址",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/editAddress/index",
+			"style": {
+				"navigationBarTitleText": "编辑收货地址",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/waitPay/index",
+			"style": {
+				"navigationBarTitleText": "待付款",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/waitSend/index",
+			"style": {
+				"navigationBarTitleText": "待发货",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/waitGet/index",
+			"style": {
+				"navigationBarTitleText": "待收货",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/accept/index",
+			"style": {
+				"navigationBarTitleText": "已完成",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/orderDetailById/index",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+
+		{
+			"path": "pages/myApply/index",
+			"style": {
+				"navigationBarTitleText": "我的预约",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/myApplyDetail/index",
+			"style": {
+				"navigationBarTitleText": "预约详情",
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "山塘雕花楼美术馆",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#282D42",
+		"borderStyle": "white",
+		"backgroundColor": "#fff",
+		"box-shadow": "0px 4px 120px rgba(193, 193, 197, 0.15)",
+		"list": [
+			// {
+			// 	"pagePath": "pages/info/index",
+			// 	"iconPath": "static/tabbar/jianjie.png",
+			// 	"selectedIconPath": "static/tabbar/jianjie2.png",
+			// 	"text": "简介"
+			// },
+
+			// {
+			// 	"pagePath": "pages/applyActive/index",
+			// 	"iconPath": "static/tabbar/yuyue.png",
+			// 	"selectedIconPath": "static/tabbar/yuyue2.png",
+			// 	"text": "预约"
+			// }
+
+			{
+			  "pagePath": "pages/index/index",
+			  "iconPath": "static/tabbar/home.png",
+			  "selectedIconPath": "static/tabbar/home2.png",
+			  "text": "首页"
+			},
+			{
+			  "pagePath": "pages/cate/index",
+			  "iconPath": "static/tabbar/cate.png",
+			  "selectedIconPath": "static/tabbar/cate2.png",
+			  "text": "分类"
+			},
+
+			{
+			  "pagePath": "pages/applyActive/index",
+			  "iconPath": "static/tabbar/yuyue.png",
+			  "selectedIconPath": "static/tabbar/yuyue2.png",
+			  "text": "预约"
+			},
+
+			{
+			  "pagePath": "pages/shoppingCart/index",
+			  "iconPath": "static/tabbar/shoppingCart.png",
+			  "selectedIconPath": "static/tabbar/shoppingCart2.png",
+			  "text": "购物车"
+			},
+			{
+			  "pagePath": "pages/mine/index",
+			  "iconPath": "static/tabbar/mine.png",
+			  "selectedIconPath": "static/tabbar/mine2.png",
+			  "text": "我的"
+			}
+		]
+	},
+	"condition": {
+		"current": 0,
+		"list": []
+	}
+}

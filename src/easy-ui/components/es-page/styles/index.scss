@@ -1,0 +1,15 @@
+$tabbar-bg-color:#fff;
+$tabbar-shadow-color:#ccc;
+$tabbar-text-color:#888888;
+$tabbar-text-active-color: black;
+$tabbarHeight: 140rpx;
+$contentHeight: calc(100vh - #{$tabbarHeight});
+
+.es-page-content-height {
+  height: $contentHeight;
+  background-color: white;
+}
+
+.es-page-bottom-area {
+  height: 100rpx;
+}
